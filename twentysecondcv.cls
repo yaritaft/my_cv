@@ -227,7 +227,7 @@
 }
 
 \newcommand{\twentyitem}[4]{%
-	#1&\parbox[t]{0.83\textwidth}{%
+	{%
 		\textbf{#2}%
 		\hfill%
 		{\footnotesize#3}\\%
