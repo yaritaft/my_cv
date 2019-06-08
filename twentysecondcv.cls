@@ -6,8 +6,9 @@
 %	 REQUIRED PACKAGES
 %----------------------------------------------------------------------------------------
 
-\RequirePackage[sfdefault]{ClearSans}
-\RequirePackage[T1]{fontenc}
+\usepackage{tgbonum}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
 \RequirePackage{tikz}
 \RequirePackage{xcolor}
 \RequirePackage[absolute,overlay]{textpos}
@@ -220,14 +221,14 @@
 \setlength{\tabcolsep}{0pt}
 
 % New environment for the long list
-{%
+\newenvironment{twenty}{%
 	\begin{tabular*}{\textwidth}{@{\extracolsep{\fill}}ll}
 }{%
 	\end{tabular*}
 }
 
 \newcommand{\twentyitem}[4]{%
-	{%
+	#1\parbox{0.83\textwidth}{%
 		\textbf{#2}%
 		\hfill%
 		{\footnotesize#3}\\%

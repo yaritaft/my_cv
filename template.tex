@@ -1,20 +1,3 @@
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-% Twenty Seconds Resume/CV
-% LaTeX Template
-% Version 1.1 (8/1/17)
-%
-% This template has been downloaded from:
-% http://www.LaTeXTemplates.com
-%
-% Original author:
-% Carmine Spagnuolo (cspagnuolo@unisa.it) with major modifications by 
-% Vel (vel@LaTeXTemplates.com)
-%
-% License:
-% The MIT License (see included LICENSE file)
-%
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
 %----------------------------------------------------------------------------------------
 %	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
 %----------------------------------------------------------------------------------------
@@ -45,7 +28,7 @@
 %----------------------------------------------------------------------------------------
 %	 ABOUT ME
 %----------------------------------------------------------------------------------------
-
+	
 \aboutme{I am really curious and I love learning new things. I am really interested in social skills and communication. Last but not least, I like to teach how to do things that I like (for example Coding or Managing data), that's why I am a member of a community of practice where we share our passion for automation and analytics.} % To have no About Me section, just remove all the text and leave \aboutme{}
 
 %----------------------------------------------------------------------------------------
@@ -53,7 +36,8 @@
 %----------------------------------------------------------------------------------------
 
 % Skill bar section, each skill must have a value between 0 an 6 (float)
-\skills{{BASH Scripting/4},{Javascript/3},{Docker/3},{SQL/5.5},{Python/4.5}}
+\skills{{BASH Scripting/4},{HTML5/3},{CSS3/2},{Javascript/3},{SQL/5.5},{Python/4.5}}
+%{Docker/3}
 
 %------------------------------------------------
 
@@ -69,35 +53,36 @@
 %----------------------------------------------------------------------------------------
 
 \section{Experience}
-
-\begin{twenty} % Environment for a list with descriptions
-	\twentyitem {}{ETL Developer}{ExxonMobil - Gas and Oil (Aug-2018 - Present)}{Accomplishments:
-    \newline-Made an ETL process that using API's centralizes data from a lot of data sources into one Datamart to be consumed.
-    \newline-Speeded up data quality tasks from months to days by making a new  data process.
+\newline\newline 
+{\large\underline{ETL Developer: ExxonMobil}}  \hspace*{115pt}  Aug-2018 - Present
+\newline\newline
+Accomplishments:
+    \newline-Made an ETL process that using API's centralizes data into a datalake.
+    \newline-Speeded up data quality tasks from months to days by creating processes.
     \newline-Reduced the company Network support expenses by 12\% by making a more accurate network inventory.
-    \newline-Automated the Network Inventory process that used to be completely manual.
-    \newline-Made a Python training to teach people how to handle data with Pandas, Sci Kit Learn, Seaborn, MatPlotLib, etc.
-    \newline 
-    \newline\underline{Tools:} Python, SQL Server, Power BI, GitLab, Openshift, Visio
-    \newline \underline{Methodology:} Agile - Safe Framework ( Scrum + Kanban )}
-	
-	\twentyitem {}{IT Consultant}{Self-Employed (Dec-2017 - Present)}{Accomplishments: Customer: Fravega (Retailer)
+    \newline-Automated the Network Inventory process that used to be manual.
+    \newline-Made a Python training to teach how to handle data with Pandas and Seaborn.
+    \newline\newline\textit{\underline{Tools:} Python, SQL Server, Power BI, GitLab, Visio. \underline{Methodology:} Agile}
+    \newline\newline
+    
+{\large\underline{Self Employed IT Consultant: Fravega}} \hspace*{55pt} Dec-2017 - Present
+\newline
 
+Accomplishments: 
     \newline-Reduced by 80\% the number of issues related to config files, I achieved that by setting up automatic tests to check compliance before going to production.
     \newline-Automated reports, logs, backups, database updates and mailing.
-    \newline 
-    \newline\underline{Tools:} Python, Bash, Oracle SQL, MySQL, Javascript, PHP 
-    }
+    \newline\newline\textit{\underline{Tools:} Python, Bash, Oracle SQL, MySQL, Javascript, PHP}
+    \newline\newline
+    
 	
-	\twentyitem{}{Functional Analyst}{El Cronista Comercial - Newspaper (Mar-2018 to Aug-2018)}{Accomplishments:
-    \newline-Corrected a bug which was skipping the shipping payment, so the company could stop losing money because of this.
-    \newline-Corrected a bug related to taxes and that avoided the company from being charged a huge penalty fee.
-    \newline 
-    \newline\underline{Tools:} SQL Server, Javascript, Great Plains 9 (ERP)
-    }
-	
-	%\twentyitem{<dates>}{<title>}{<location>}{<description>}
-\end{twenty}
+	{\large\underline{Functional Analyst: El Cronista Comercial}} \hspace*{5pt} Mar-2018 to Aug-2018
+	\newline\newline
+	Accomplishments:
+    \newline-Fixed a bug which was skipping shipping payment, avoiding money leaks.
+    \newline-Fixed a tax bug to avoid the company from being charged a huge penalty fee.
+    \newline\newline\textit{\underline{Tools:} SQL Server, Javascript, Great Plains 9 (ERP)}
+    \newline
+    
 
 
 %----------------------------------------------------------------------------------------
@@ -105,8 +90,7 @@
 %----------------------------------------------------------------------------------------
 
 \section{Interests}
-
-I want to work in a company which always faces new challenges, so that I will be able to grow professionally and personally. Besides, I would love to be part of a great team and use new technologies to keep myself updated. Nevertheless, I wont take an exception if I have to maintain a legacy solution. 
+\newline\newline I want to work in a company which always faces new challenges, so that I will be able to grow professionally and personally. Besides, I would love to be part of a great team and use new technologies to keep myself updated. Nevertheless, I wont take an exception if I have to maintain a legacy solution. 
 %----------------------------------------------------------------------------------------
 %	 EDUCATION
 %----------------------------------------------------------------------------------------
@@ -114,7 +98,7 @@ I want to work in a company which always faces new challenges, so that I will be
 \section{Education}
 
 \begin{twenty} % Environment for a list with descriptions
-	\twentyitem{2014-2018}{Systems Engineering {\normalfont }}{}{Universidad Tecnologica Nacional (UTN)}
+	\twentyitem {}{Systems Engineering - Graduated {\normalfont }}{2014-2018}{Universidad Tecnologica Nacional (UTN)}
 % 	\twentyitem{1863-1865}{M.Sc. magna cum laude}{Wonderland}{Majoring in Computer Science}
 % 	\twentyitem{1861-1863}{B.Sc. magna cum laude}{Wonderland}{Majoring in Computer Science}
 % 	\twentyitem{1856-1861}{High school}{Wonderland}{Specializing in mathematics and physics.}
@@ -152,8 +136,8 @@ I want to work in a company which always faces new challenges, so that I will be
 % 	%\twentyitemshort{<dates>}{<title/description>}
 % \end{twentyshort}
  \begin{twenty}
- \twentyitem{2012}{First Certificate Exam}{}{University of Cambridge}
- \twentyitem{2012}{Advanced Excel Operator}{}{Universidad Tecnologica Nacional (UTN)}
+ \twentyitem{}{First Certificate Exam}{2012}{University of Cambridge}
+  \twentyitem{}{Data Science - Level: Advanced}{2019}{Universidad Austral}
  \end{twenty}
 
 %----------------------------------------------------------------------------------------
