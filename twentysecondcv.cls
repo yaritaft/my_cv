@@ -73,6 +73,7 @@
 \newcommand{\cvaddress}[1]{\renewcommand{\cvaddress}{#1}}
 \newcommand{\cvsite}[1]{\renewcommand{\cvsite}{#1}}
 \newcommand{\aboutme}[1]{\renewcommand{\aboutme}{#1}}
+\newcommand{\interests}[1]{\renewcommand{\interests}{#1}}
 \newcommand{\profilepic}[1]{\renewcommand{\profilepic}{#1}}
 \newcommand{\cvname}[1]{\renewcommand{\cvname}{#1}}
 \newcommand{\cvjobtitle}[1]{\renewcommand{\cvjobtitle}{#1}}
@@ -158,15 +159,15 @@
 
 		%------------------------------------------------
 
-		\profilesection{Skills}
-
-		\skills
-		\skillstext
-		\scriptsize
-		% commented by yari (*)[The skill scale is from 0 (Fundamental Awareness) to 6 (Expert).]
-			
 		%------------------------------------------------
-			
+		
+		\ifthenelse{\equal{\interests}{}}{}{
+			\profilesection{Interests}
+			\begin{flushleft}
+				\interests
+			\end{flushleft}
+		}
+
 	\end{textblock}
 }
 
