@@ -69,7 +69,7 @@
 % Define custom commands for CV info
 \newcommand{\cvdate}[1]{\renewcommand{\cvdate}{#1}}
 \newcommand{\cvmail}[1]{\renewcommand{\cvmail}{#1}}
-\newcommand{\cvnumberphone}[1]{\renewcommand{\cvnumberphone}{#1}}
+%\newcommand{\cvnumberphone}[1]{\renewcommand{\cvnumberphone}{#1}}
 \newcommand{\cvaddress}[1]{\renewcommand{\cvaddress}{#1}}
 \newcommand{\cvsite}[1]{\renewcommand{\cvsite}{#1}}
 \newcommand{\aboutme}[1]{\renewcommand{\aboutme}{#1}}
